@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Actualidad mundial</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Noticias del mundo mundial"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+  <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/news.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+<div id="a" class="jumbotron text-center"><h1>¿Qué ha pasado?</h1>
+    <br>
+    <div id="b" class="alert">
+    <h2>Noticias del mundo mundial.<br>
+    <small>Pasan cosas y alguien tendrá que contarlas. </small></h2>
+    </div>
+</div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">¿Qué ha pasado?</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="news.html">Home</a></li>
+      <li><a href="#">Nacional</a></li>
+      <li class="active"><a href="#">Internacional</a></li>
+      <li><a href="#">Sociedad</a></li>
+      <li><a href="#">Deporte</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4"><br>
+      <p class="g"><span class="glyphicon glyphicon-stats"></span></p>
+      <p id="nsocios">134 Coses</p>
+      <p id="nclubes">3432 Més coses</p>       
+    </div>
+    <div class="col-sm-4"><br>
+      <p class="g"><span class="glyphicon glyphicon-heart"></span></p>
+      <button type="button" class="btn-lg btn-primary" data-toggle="modal" data-target="#info"> Leer más </button>
+    </div>
+    <div class="col-sm-4"><br>
+      <p class="g"><span class="glyphicon glyphicon-user"></span></p>
+      <p><input type="text" class="form-control" placeholder="usuari" required></p>
+      <p><input type="password" class="form-control" placeholder="password" required></p>
+      <button type="button" class="btn-lg btn-info"> entrar </button>
+    </div>
+  </div>
+
+    <aside>
+      <h3>PUBLICIDAD</h3>
+      <img id="imagen" src="img/pub.jpg" class="img-responsive center-block" alt="PUBLICIDAD"><br>
+      <img id="imagen" src="img/pub.jpg" class="img-responsive center-block" alt="PUBLICIDAD"><br>
+      <img id="imagen" src="img/pub.jpg" class="img-responsive center-block" alt="PUBLICIDAD"><br>
+      <img id="imagen" src="img/pub.jpg" class="img-responsive center-block" alt="PUBLICIDAD"><br>
+    </aside>
+  <div class="row">
+    <div class="col-sm-8"><br>
+      <p id="datetime">05/05/2017 - 11:30</p>
+      <h3 id="titulo">   Corea del Norte acusa Estados Unidos de "conspirar para matar a Kim Jong-un"</h3>
+      <img id="imagen" src="img/h.jpg" class="img-responsive center-block" alt="Kim Jong-un"><br>
+      <p id="descripcion">Agentes estadounidenses y de Corea del Sur "están conspirando para asesinar al líder norcoreano Kim Jong-un", según reportaron este viernes los medios de comunicación oficiales de Corea del Norte.<br>La denuncia del Ministerio de Seguridad Estatal afirma que un grupo terrorista, apoyado por la CIA estadounidense y la agencia de inteligencia de Corea del Sur entró al país para atacar al mandatario con una sustancia bioquímica. Y afirma que Corea del Norte encontrará y "destruirá despiadadamente" a los conspiradores. La declaración, que surge en medio de una fuerte tensión y retórica entre Washington y Pyongyang, fue publicada por la agencia de noticias norcoreana KCNA. Según las autoridades, el supuesto complot incluía el uso de "sustancias bioquímicas, incluyendo sustancias radiactivas y tóxicas". 
+      Aseguran que el "Líder Supremo" iba a ser atacado en un desfile militar y una procesión pública, y que los resultados sólo serían visibles de seis a 12 meses después.</p><br><br>
+    </div>
+
+    
+  </div>
+
+</div>
+<br>
+
+<!--<div class="container">
+  <img id="imghorizontal" src="http://www.blirk.net/wallpapers/1280x720/beach-wallpaper-1.jpg" class="img-responsive center-block">
+  <br>
+  <img id="imgvertical" src="https://s-media-cache-ak0.pinimg.com/originals/ff/72/a9/ff72a9588259e60465dd490ba6686152.jpg" class="img-responsive center-block">
+</div>-->
+  
+
+<div id="info" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Selecciona tu Comunidad Autónoma</h4>
+      </div>
+      <div class="modal-body">
+          <select class="form-control" id="comunidades">
+              <option selected value="0">Selecciona...</option>
+          </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-lg btn-info" id="verinfo"> ver información </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<footer class="footer"> 
+    <div class="container"> 
+        <ul class="footer-links"> 
+            <li>Facebook</li> 
+            <li>About</li> 
+        </ul> 
+        <p>Developed by Miguel Urbina
+        </p> 
+    </div> 
+</footer>
+</body>
+</html>
