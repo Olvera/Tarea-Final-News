@@ -3,38 +3,38 @@
 
 <channel>
   <title>News Home Page</title>
-  <link>http://news.html</link>
+  <link>https://github.com/Olvera/Tarea-Final-News</link>
   <description>Web de información y noticias de actualidad</description>
   <item>
     <title>Corea del Norte acusa Estados Unidos de "conspirar para matar a Kim Jong-un"</title>
-    <link>../rss/rss.xml</link>
+    <link>https://github.com/Olvera/Tarea-Final-News/blob/master/news.html</link>
     <description>Agentes estadounidenses y de Corea del Sur "están conspirando para asesinar al líder norcoreano Kim Jong-un", según reportaron este viernes los medios de comunicación oficiales de Corea del Norte</description>
     <image>
-      <url>../img/h.jpg</url>
+      <url>https://github.com/Olvera/Tarea-Final-News/blob/master/img/h.jpg</url>
       <title>Kim Jong-un</title>
-      <link>http://news.html</link>
+      <link>https://github.com/Olvera/Tarea-Final-News/blob/master/news.html</link>
     </image>
     <pubdate>05/05/2017</pubdate>
   </item>
   <item>
     <title>España pierde su primer arbitraje internacional ante el Ciadi por los recortes a las renovables</title>
-    <link>../rss/rss.xml</link>
+    <link>https://github.com/Olvera/Tarea-Final-News/blob/master/news.html</link>
     <description>Varapalo internacional para España. El laudo del Ciadi declara que ha violado el artículo 10 de la Carta de la Energía privando de un trato justo y equitativo a Eiser, fondo ligado a ABN Amro</description>
     <image>      
-      <url>../img/e.jpg</url>
+      <url>https://github.com/Olvera/Tarea-Final-News/blob/master/img/e.jpg</url>
       <title>Renovables</title>
-      <link>http://news.html</link>
+      <link>https://github.com/Olvera/Tarea-Final-News/blob/master/news.html</link>
     </image>
     <pubdate>06/05/2017</pubdate>
   </item>
   <item>
     <title>Macron denuncia un "pirateo masivo" de documentos el último día de campaña</title>
-    <link>../rss/rss.xml</link>
+    <link>https://github.com/Olvera/Tarea-Final-News/blob/master/news.html</link>
     <description>El movimiento 'En Marcha', fundado por el candidato presidencial Emmanuel Macron, aseguró este viernes haber sido víctima de un "pirateo masivo y coordinado"</description>
     <image>
-      <url>../img/m.jpg</url>
+      <url>https://github.com/Olvera/Tarea-Final-News/blob/master/img/m.jpg</url>
       <title>Emmanuel Macron</title>
-      <link>http://news.html</link>
+      <link>https://github.com/Olvera/Tarea-Final-News/blob/master/news.html</link>
     </image>
     <pubdate>06/05/2017</pubdate>
   </item>
